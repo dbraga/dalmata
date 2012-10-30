@@ -7,14 +7,28 @@ var map = new L.Map('map'),
     cloudmadeUrl = 'http://{s}.tile.cloudmade.com/83d9fa1fca774c898ac46594d1e6a72b/997/256/{z}/{x}/{y}.png',
     cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
 
-map.setView(new L.LatLng(51.505, -0.09), 12);
-
-
-var baseLayer = new L.TileLayer(cloudmadeUrl, { attribution: cloudmadeAttribution});
-baseLayer.addTo(map);
-
-var marker = new L.Marker([51.505, -0.09]);
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-marker.addTo(map);
-
+<%= render "markers" %>
 </script>
+
+<div class="container">
+	<div class="row">
+		<div class="span6">
+			<h2>Query: </h2> <%= params[:query] %>
+		</div>
+		<div class="span6">
+			<h2>Rows: </h2> <%= params[:rows] %>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span6">
+			<h2>Title: </h2> <%= params[:title] %>
+		</div>
+		<div class="span6">
+			<h2>Snippet: </h2> <%= params[:snippet] %>
+		</div>
+	</div>
+</div>
+
+
+
+
