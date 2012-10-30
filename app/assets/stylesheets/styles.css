@@ -6036,7 +6036,10 @@ a.label:hover, a.badge:hover {
   position: fixed;
 }
 
-/* line 4, ../sass/styles.scss */
+/* line 5, ../sass/styles.scss */
 #map {
-  height: 180px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
 }
