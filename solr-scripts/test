@@ -1,0 +1,450 @@
+// Cluster: Mission
+var marker = new L.Marker([37.766773, -122.41591]);
+                  marker.bindPopup('<b> Price:2995000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.764114, -122.41036]);
+                  marker.bindPopup('<b> Price:614051$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.76832, -122.4263]);
+                  marker.bindPopup('<b> Price:2300000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.768562, -122.422226]);
+                  marker.bindPopup('<b> Price:400000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.77731, -122.39303]);
+                  marker.bindPopup('<b> Price:491351$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.774963, -122.394165]);
+                  marker.bindPopup('<b> Price:1299000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.76329, -122.4182]);
+                  marker.bindPopup('<b> Price:699900$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.763767, -122.42113]);
+                  marker.bindPopup('<b> Price:856440$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.759087, -122.41694]);
+                  marker.bindPopup('<b> Price:408000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.77286040404041, -122.40949696969695)], 0.017405662762845678, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Pacific Heights
+var marker = new L.Marker([37.7904, -122.44564]);
+                  marker.bindPopup('<b> Price:1425000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.79156, -122.42461]);
+                  marker.bindPopup('<b> Price:889000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.785267, -122.434494]);
+                  marker.bindPopup('<b> Price:995000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7836, -122.44522]);
+                  marker.bindPopup('<b> Price:750000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.78933, -122.43296]);
+                  marker.bindPopup('<b> Price:2175000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7856, -122.4358]);
+                  marker.bindPopup('<b> Price:750000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.78768888888888, -122.43481515151514)], 0.011137446296051482, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: South Beach
+var marker = new L.Marker([37.79073, -122.39582]);
+                  marker.bindPopup('<b> Price:1200000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.786808, -122.39361]);
+                  marker.bindPopup('<b> Price:699000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.78278, -122.38968]);
+                  marker.bindPopup('<b> Price:1149000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.786934, -122.39377]);
+                  marker.bindPopup('<b> Price:799000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.78949, -122.3905]);
+                  marker.bindPopup('<b> Price:2690000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.788155, -122.390045]);
+                  marker.bindPopup('<b> Price:730000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.786714848484856, -122.392718989899)], 0.005073234208695357, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Central Sunset
+var marker = new L.Marker([37.753807, -122.491486]);
+                  marker.bindPopup('<b> Price:650000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.76194, -122.48312]);
+                  marker.bindPopup('<b> Price:1250000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.749634, -122.47724]);
+                  marker.bindPopup('<b> Price:669429$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.76433, -122.49115]);
+                  marker.bindPopup('<b> Price:417000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.75690777777778, -122.48412474747474)], 0.010219762999192103, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Excelsior
+var marker = new L.Marker([37.71696, -122.42979]);
+                  marker.bindPopup('<b> Price:393750$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.725544, -122.426605]);
+                  marker.bindPopup('<b> Price:269181$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.720665, -122.432434]);
+                  marker.bindPopup('<b> Price:637459$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.726326, -122.42708]);
+                  marker.bindPopup('<b> Price:513235$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.721690145050495, -122.42842121717173)], 0.00492446216220587, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Ingleside Heights
+var marker = new L.Marker([37.71561, -122.463524]);
+                  marker.bindPopup('<b> Price:459391$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.71114, -122.46799]);
+                  marker.bindPopup('<b> Price:248362$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.71454, -122.46531]);
+                  marker.bindPopup('<b> Price:545000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7122, -122.46259]);
+                  marker.bindPopup('<b> Price:440666$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.71325042626262, -122.46557803434342)], 0.003192205552128369, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Miraloma
+var marker = new L.Marker([37.73621, -122.44421]);
+                  marker.bindPopup('<b> Price:1100000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.73695, -122.45098]);
+                  marker.bindPopup('<b> Price:636000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.736416, -122.44737]);
+                  marker.bindPopup('<b> Price:679000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.73441, -122.44191]);
+                  marker.bindPopup('<b> Price:733488$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.735667171717175, -122.4463991919192)], 0.004757042261375706, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Bayview
+var marker = new L.Marker([37.71902, -122.38954]);
+                  marker.bindPopup('<b> Price:350474$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.735107, -122.3879]);
+                  marker.bindPopup('<b> Price:317901$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.736107, -122.38787]);
+                  marker.bindPopup('<b> Price:360500$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.7274772020202, -122.38871343434343)], 0.008670916598822472, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Haight
+var marker = new L.Marker([37.768024, -122.45177]);
+                  marker.bindPopup('<b> Price:1025000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.76995, -122.44355]);
+                  marker.bindPopup('<b> Price:3750000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.768097, -122.4513]);
+                  marker.bindPopup('<b> Price:1651000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.76899672727272, -122.44761848484849)], 0.004263950797138206, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Lower Pacific Heights
+var marker = new L.Marker([37.785267, -122.434494]);
+                  marker.bindPopup('<b> Price:995000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7836, -122.44522]);
+                  marker.bindPopup('<b> Price:750000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7856, -122.4358]);
+                  marker.bindPopup('<b> Price:750000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.78444191919193, -122.43980282828284)], 0.005482205517778249, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Mission Dolores
+var marker = new L.Marker([37.76832, -122.4263]);
+                  marker.bindPopup('<b> Price:2300000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.768562, -122.422226]);
+                  marker.bindPopup('<b> Price:400000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.763767, -122.42113]);
+                  marker.bindPopup('<b> Price:856440$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.766020505050506, -122.42368888888888)], 0.0034793071518967023, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Outer Richmond
+var marker = new L.Marker([37.78142, -122.49495]);
+                  marker.bindPopup('<b> Price:360000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.776424, -122.50522]);
+                  marker.bindPopup('<b> Price:1650000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.77796, -122.506424]);
+                  marker.bindPopup('<b> Price:1499000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.77970747474749, -122.50062905050508)], 0.006052694246565061, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: SoMa
+var marker = new L.Marker([37.77219, -122.41994]);
+                  marker.bindPopup('<b> Price:535495$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.778133, -122.40324]);
+                  marker.bindPopup('<b> Price:650000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.773235, -122.40916]);
+                  marker.bindPopup('<b> Price:644504$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.775191515151526, -122.41150565656561)], 0.008952499224935224, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Central Richmond
+var marker = new L.Marker([37.773735, -122.48462]);
+                  marker.bindPopup('<b> Price:798000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.77348, -122.47815]);
+                  marker.bindPopup('<b> Price:469000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.7736062121212, -122.48135232323229)], 0.0032702137201506675, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Central Waterfront
+var marker = new L.Marker([37.754784, -122.39089]);
+                  marker.bindPopup('<b> Price:559200$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.755283, -122.390274]);
+                  marker.bindPopup('<b> Price:500000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.75503602020203, -122.3905788888889)], 0.0004003802014117844, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Mission Bay
+var marker = new L.Marker([37.77731, -122.39303]);
+                  marker.bindPopup('<b> Price:491351$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.774963, -122.394165]);
+                  marker.bindPopup('<b> Price:1299000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.77614835353535, -122.39359176767675)], 0.001316684586444125, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Northern Park
+var marker = new L.Marker([37.776794, -122.44513]);
+                  marker.bindPopup('<b> Price:460000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7778, -122.44194]);
+                  marker.bindPopup('<b> Price:615000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.77730208080808, -122.44351888888887)], 0.0016893268244525723, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Oceanview
+var marker = new L.Marker([37.713383, -122.4592]);
+                  marker.bindPopup('<b> Price:615000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.71254, -122.46118]);
+                  marker.bindPopup('<b> Price:420000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.712965757575745, -122.46018000000002)], 0.0010868622329399417, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Potrero Hill
+var marker = new L.Marker([37.760185, -122.409164]);
+                  marker.bindPopup('<b> Price:520000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.760612, -122.40117]);
+                  marker.bindPopup('<b> Price:365000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.760400656565636, -122.40512662626264)], 0.004043129289275804, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Visitacion Valley
+var marker = new L.Marker([37.709568, -122.422005]);
+                  marker.bindPopup('<b> Price:366280$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7101, -122.41156]);
+                  marker.bindPopup('<b> Price:496109$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(37.709836686868705, -122.41672974747473)], 0.005282090669272509, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
+// Cluster: Other Topics
+var marker = new L.Marker([37.758656, -122.43386]);
+                  marker.bindPopup('<b> Price:739000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([, ]);
+                  marker.bindPopup('<b> Price:1320000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.764973, -122.456276]);
+                  marker.bindPopup('<b> Price:101250$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.74108, -122.43771]);
+                  marker.bindPopup('<b> Price:243422$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.73122, -122.40727]);
+                  marker.bindPopup('<b> Price:658829$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.722588, -122.45716]);
+                  marker.bindPopup('<b> Price:624000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.80392, -122.4042]);
+                  marker.bindPopup('<b> Price:134500$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7102, -122.44312]);
+                  marker.bindPopup('<b> Price:450000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.73936, -122.46299]);
+                  marker.bindPopup('<b> Price:999000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.76445, -122.44052]);
+                  marker.bindPopup('<b> Price:1195000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.735153, -122.45409]);
+                  marker.bindPopup('<b> Price:899000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.72033, -122.47272]);
+                  marker.bindPopup('<b> Price:568300$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.720127, -122.40958]);
+                  marker.bindPopup('<b> Price:749000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.79267, -122.40884]);
+                  marker.bindPopup('<b> Price:3750000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.739857, -122.46101]);
+                  marker.bindPopup('<b> Price:1495000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.79591, -122.4136]);
+                  marker.bindPopup('<b> Price:1400000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.743702, -122.42005]);
+                  marker.bindPopup('<b> Price:899000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.78439, -122.42864]);
+                  marker.bindPopup('<b> Price:74405$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.792263, -122.40125]);
+                  marker.bindPopup('<b> Price:638000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7531, -122.44293]);
+                  marker.bindPopup('<b> Price:750000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.74351, -122.42664]);
+                  marker.bindPopup('<b> Price:748886$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.74725, -122.43778]);
+                  marker.bindPopup('<b> Price:1199000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.756077, -122.45543]);
+                  marker.bindPopup('<b> Price:949800$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.73974, -122.40994]);
+                  marker.bindPopup('<b> Price:510000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.753593, -122.50579]);
+                  marker.bindPopup('<b> Price:575000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.73603, -122.429955]);
+                  marker.bindPopup('<b> Price:789000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.797573, -122.41181]);
+                  marker.bindPopup('<b> Price:799000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.758175, -122.42273]);
+                  marker.bindPopup('<b> Price:3843500$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7865, -122.49129]);
+                  marker.bindPopup('<b> Price:6500000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.710766, -122.437935]);
+                  marker.bindPopup('<b> Price:565000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.717247, -122.46893]);
+                  marker.bindPopup('<b> Price:440427$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.803883, -122.40351]);
+                  marker.bindPopup('<b> Price:1300000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.76609, -122.433495]);
+                  marker.bindPopup('<b> Price:850000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.7978, -122.44488]);
+                  marker.bindPopup('<b> Price:680000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.786922, -122.413445]);
+                  marker.bindPopup('<b> Price:6000000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.72094, -122.45212]);
+                  marker.bindPopup('<b> Price:789509$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.77647, -122.457436]);
+                  marker.bindPopup('<b> Price:1099000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.71068, -122.43105]);
+                  marker.bindPopup('<b> Price:585000$</b>').openPopup();
+                  marker.addTo(map);
+var marker = new L.Marker([37.75821, -122.46658]);
+                  marker.bindPopup('<b> Price:899000$</b>').openPopup();
+                  marker.addTo(map);
+var circle = L.circle([(18.68612178787879, -60.634178888888876)], 64.7430669640359, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map); 
