@@ -16,8 +16,11 @@
 		<div class="span6">
 			<h2>Query: </h2> <%= params[:query] %>
 		</div>
-		<div class="span6">
+		<div class="span3">
 			<h2>Rows: </h2> <%= params[:rows] %>
+		</div>
+		<div class="span3">
+			<h2>Orphan docs: </h2> <%= @otherTopics.count %>
 		</div>
 	</div>
 	<div class="row">

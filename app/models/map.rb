@@ -103,6 +103,15 @@ def self.encircle( points,
     return Circle.new(x, Math.sqrt(y))
 end
 
+def self.otherTopics(query, rows, title, snippet)
+  result = json(query,rows,title, snippet)
+  lastCluster = result["clusters"].last
+  if lastCluster.first.second.eql?(["Other Topics"])
+    result["clusters"].last["docs"]
+  else
+    []
+  end
+end
 
 def self.json(query, rows, title, snippet)
    url ="http://localhost:8080/apache-solr-3.6.1/clustering?q="+query+"&rows="+rows+"&indent=on&carrot.title="+title+"&carrot.snippet="+snippet+"&carrot.produceSummary=false&wt=json&fl=id,price_i,latitude_f,longitude_f,geohash_s,state_s"
@@ -120,78 +129,27 @@ def self.json(query, rows, title, snippet)
 end
 
 def self.results(query = "city_s:%22SAN%20FRANCISCO%22", rows = "100", title = "geohash_s", snippet="neighborhoodDisplay_s")
-result = json(query,rows,title, snippet)
-clusters = result["clusters"]
-solrDocs = result["response"]["docs"]
-output = ""
+  result = json(query,rows,title, snippet)
+  clusters = result["clusters"]
+  solrDocs = result["response"]["docs"]
+  output = "map.setView(new L.LatLng("+solrDocs.first["latitude_f"].to_s+","+solrDocs.first["longitude_f"].to_s+"), 12);
+  var baseLayer = new L.TileLayer(cloudmadeUrl, { attribution: cloudmadeAttribution});
+  baseLayer.addTo(map);
+  var markers = new L.MarkerClusterGroup();" + "\n"
 
-output = output + "map.setView(new L.LatLng("+solrDocs.first["latitude_f"].to_s+","+solrDocs.first["longitude_f"].to_s+"), 12);
-var baseLayer = new L.TileLayer(cloudmadeUrl, { attribution: cloudmadeAttribution});
-baseLayer.addTo(map);
-var markers = new L.MarkerClusterGroup();
-" + "\n"
-
-
-
-
-clusters.each do |cluster|
-   output = "\n" + output +  "// Cluster: "+cluster["labels"].first + "\n"
-   cluster["docs"].each do |doc|
-      solrDocs.each do |solrDoc|
-         if solrDoc["id"].eql?(doc) && (!solrDoc["latitude_f"].to_s.blank?) && (!solrDoc["longitude_f"].to_s.blank?)
-          output = "\n" + output + 
-
-
-      "var marker = new L.Marker(new L.LatLng("+solrDoc["latitude_f"].to_s + " , " + solrDoc["longitude_f"].to_s+")); 
-      marker.bindPopup('"+cluster["labels"].first+"');
-      markers.addLayer(marker);
-           \n"
-         end       
-      end
-   end
-
-
-         # marker.bindPopup("+solrDoc["price_i"].to_s+");
-          # markers.addLayer(marker);\n"
-
-#    circle = encircle(points)
-#    color = [:red, :blue, :yellow, :orange, :grey, :black, :green, :violet, :brown].sample.to_s
-
-#    output = "\n" + output +  "var circle = L.circle(["+circle.center.to_s.delete("(").delete(")")+"], "+((circle.radius.to_s.delete("(").delete(")")).to_f*100000).to_s+", {
-#     color: '"+color+"',
-#     fillColor: '"+color+"',
-#     fillOpacity: 0.5
-# }).addTo(map); " + "\n"
-end
-
-output = output + "map.addLayer(markers);"
-# old code without clusters
-
-
-# clusters.each do |cluster|
-#    output = "\n" + output +  "// Cluster: "+cluster["labels"].first + "\n"
-#    points = Array.new
-#    cluster["docs"].each do |doc|
-#       solrDocs.each do |solrDoc|
-#          if solrDoc["id"].eql?(doc)
-#             points << Point.new(solrDoc["latitude_f"],solrDoc["longitude_f"].to_s)
-#             output = "\n" + output +  "var marker = new L.Marker(["+solrDoc["latitude_f"].to_s+", "+solrDoc["longitude_f"].to_s+"]);
-#                   marker.bindPopup('Cluster: "+cluster["labels"].first.delete("'")+"<br><b> Price: "+solrDoc["price_i"].to_s+"$</b>').openPopup();
-#                   marker.addTo(map);" + "\n"
-#          end       
-#       end
-#    end
-
-#    circle = encircle(points)
-#    color = [:red, :blue, :yellow, :orange, :grey, :black, :green, :violet, :brown].sample.to_s
-
-#    output = "\n" + output +  "var circle = L.circle(["+circle.center.to_s.delete("(").delete(")")+"], "+((circle.radius.to_s.delete("(").delete(")")).to_f*100000).to_s+", {
-#     color: '"+color+"',
-#     fillColor: '"+color+"',
-#     fillOpacity: 0.5
-# }).addTo(map); " + "\n"
-# end
-
-output
-end
+  clusters.each do |cluster|
+     output = "\n" + output +  "// Cluster: "+cluster["labels"].first + "\n"
+     cluster["docs"].each do |doc|
+        solrDocs.each do |solrDoc|
+           if solrDoc["id"].eql?(doc) && (!solrDoc["latitude_f"].to_s.blank?) && (!solrDoc["longitude_f"].to_s.blank?)
+            output = "\n" + output + 
+            "var marker = new L.Marker(new L.LatLng("+solrDoc["latitude_f"].to_s + " , " + solrDoc["longitude_f"].to_s+")); 
+            marker.bindPopup('"+cluster["labels"].first+"');
+            markers.addLayer(marker);\n"
+           end       
+        end
+     end
+  end
+  output + "map.addLayer(markers);"
+  end
 end
