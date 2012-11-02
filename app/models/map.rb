@@ -48,8 +48,8 @@ def self.results(query = "city_s:%22SAN%20FRANCISCO%22", rows = "100", title = "
         solrDocs.each do |solrDoc|
            if solrDoc["id"].eql?(doc) && (!solrDoc["latitude_f"].to_s.blank?) && (!solrDoc["longitude_f"].to_s.blank?)
             output = "\n" + output + 
-            "var marker = new L.Marker(new L.LatLng("+solrDoc["latitude_f"].to_s + " , " + solrDoc["longitude_f"].to_s+"), { title: '"+cluster["labels"].first+"'}); 
-            marker.bindPopup('"+cluster["labels"].first+"');
+            "var marker = new L.Marker(new L.LatLng("+solrDoc["latitude_f"].to_s + " , " + solrDoc["longitude_f"].to_s+"), { title: '"+cluster["labels"].first.delete("'")+"'}); 
+            marker.bindPopup('"+cluster["labels"].first.delete("'")+"');
             markers.addLayer(marker);\n"
            end       
         end
