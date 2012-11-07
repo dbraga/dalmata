@@ -1,23 +1,3 @@
-.marker-cluster-small {
-	background-color: rgba(181, 226, 140, 0.6);
-	}
-.marker-cluster-small div {
-	background-color: rgba(110, 204, 57, 0.6);
-	}
-
-.marker-cluster-medium {
-	background-color: rgba(241, 211, 87, 0.6);
-	}
-.marker-cluster-medium div {
-	background-color: rgba(240, 194, 12, 0.6);
-	}
-
-.marker-cluster-large {
-	background-color: rgba(253, 156, 115, 0.6);
-	}
-.marker-cluster-large div {
-	background-color: rgba(241, 128, 23, 0.6);
-	}
 
 .marker-cluster {
 	background-clip: padding-box;
@@ -35,4 +15,40 @@
 	}
 .marker-cluster span {
 	line-height: 30px;
+	}
+
+	.marker-cluster-small {
+	background-color: rgba(181, 226, 140, 0.6);
+	width: 30px;
+	height: 30px;
+	}
+.marker-cluster-small div {
+	background-color: rgba(110, 204, 57, 0.6);
+	width: 30px;
+	height: 30px;
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(241, 211, 87, 0.6);
+	width: 60px!important;
+	height: 60px!important;
+	border-radius: 30px;
+	}
+.marker-cluster-medium div {
+	background-color: rgba(240, 194, 12, 0.6);
+	width: 45px;
+	height: 35px;
+	margin-left: 8px;
+	margin-top: 8px;
+	border-radius: 30px;
+	padding-top:10px;
+	font: 15px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+
+.marker-cluster-large {
+	background-color: rgba(253, 156, 115, 0.6);
+
+	}
+.marker-cluster-large div {
+	background-color: rgba(241, 128, 23, 0.6);
 	}

@@ -10,7 +10,7 @@
 			trulia = new L.TileLayer(truliaUrl, {maxZoom: 17, attribution: truliaAttribution}),
 
 			latlng = new L.LatLng(-37.82, 175.24);
-		var map = new L.Map('map', {center: latlng, zoom: 13, layers: [trulia]});
+	 	var map = new L.Map('map', {center: latlng, zoom: 13, layers: [trulia]});
 
 <%= render "markers" %>
 </script>
@@ -24,7 +24,7 @@
 			<h2>Rows: </h2> <%= params[:rows] %>
 		</div>
 		<div class="span3">
-			<h2>Orphan docs: </h2> <%= @otherTopics.count %>
+			<h2>Orphan docs: </h2> <%= @otherTopics %>
 		</div>
 	</div>
 	<div class="row">
