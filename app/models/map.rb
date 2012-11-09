@@ -45,7 +45,9 @@ def self.results(query = "city_s:%22SAN%20FRANCISCO%22", rows = "100", title = "
     baseLayer.addTo(map);"
     
        output +="map.on('zoomstart', function (a) {
-                   console.log(map.getZoom());
+                  if (map.getZoom()==9){
+                    console.log('9!');
+                  }
                 });\n"  
   # output clusters
   
@@ -76,7 +78,7 @@ def self.results(query = "city_s:%22SAN%20FRANCISCO%22", rows = "100", title = "
         marker.bindPopup('#{clusterName}');
         markers.addLayer(marker);\n"
       end
-       output += "map.addLayer(markers);\n"
+       #output += "map.addLayer(markers);\n"
     end
    
 

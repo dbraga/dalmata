@@ -14,4 +14,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require leaflet.markercluster-src
+//= require map
 // require_tree .

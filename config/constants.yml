@@ -1,2 +1,2 @@
-trulia_url: 'fake'
-trulia_attribution: "fake"
+trulia_url: 'http://mt1.googleapis.com/vt?lyrs=m@183101440&src=apiv3&hl=en-US&x={x}&y={y}&z={z}&apistyle=s.t%3A1%2Cs.t%3A17%7Cp.v%3Asimplified%2Cs.t%3A18%7Cp.v%3Asimplified%2Cs.t%3A5%7Cp.s%3A-10%2Cs.t%3A2%7Cp.v%3Aoff%2Cs.t%3A40%7Cp.s%3A-10%7Cp.l%3A30%7Cp.v%3Asimplified%2Cs.t%3A3%7Cp.s%3A-100%2Cs.t%3A49%7Cs.e%3Ag%7Cp.h%3A%235EAB1F%2Cs.t%3A49%7Cp.v%3Asimplified%2Cs.t%3A50%7Cp.s%3A-100%7Cp.l%3A20%2Cs.t%3A50%7Cp.v%3Aon%2Cs.t%3A51%7Cp.v%3Aon%2Cs.t%3A4%7Cp.s%3A-100%2Cs.t%3A6%7Cp.h%3A%230089CF%7Cp.s%3A-50%7Cp.l%3A30%2Cs.t%3A21%7Cp.v%3Aon&s=Ga&style=api%7Csmartmaps'
+trulia_attribution: "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>"

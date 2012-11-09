@@ -4,16 +4,16 @@
 <script type="text/javascript">
 		// var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/83d9fa1fca774c898ac46594d1e6a72b/997/256/{z}/{x}/{y}.png',
 			// cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade, Points &copy 2012 LINZ',
-			var truliaUrl = "<%= CONSTANTS[:trulia_url].html_safe %>",
-			truliaAttribution = "<%= CONSTANTS[:trulia_attribution].html_safe %>" ,
+			// var truliaUrl = "<%= CONSTANTS[:trulia_url].html_safe %>",
+			// truliaAttribution = "<%= CONSTANTS[:trulia_attribution].html_safe %>" ,
 			// cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 17, attribution: cloudmadeAttribution}),
-			trulia = new L.TileLayer(truliaUrl, {maxZoom: 17, attribution: truliaAttribution}),
+	
 
-			latlng = new L.LatLng(-37.82, 175.24);
-	 	var map = new L.Map('map', {center: latlng, zoom: 13, layers: [trulia]});
 
-<%= render "markers" %>
+
+
 </script>
+<%#= render "markers" %>
 
 <div class="container">
 	<div class="row">
